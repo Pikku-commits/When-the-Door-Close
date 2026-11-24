@@ -1,0 +1,13 @@
+name = "when-the-door-close"
+main = "dist/server/index.js"
+compatibility_date = "2025-06-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "door-journal"
+database_id = "replace-with-your-d1-database-id"
+migrations_dir = "drizzle"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "door-journal-media"
